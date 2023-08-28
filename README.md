@@ -7,9 +7,11 @@ Basic
 
 Setup
 ------
-   - Official Docs 
+   - Official Docs
+
+    https://experienceleague.adobe.com/docs/commerce-operations/installation-guide/system-requirements.html?lang=en
    - Pre-Require
-            |
+
             |---- Php   - 8
             |---- Mysql - 8
             |---- Composer 2
@@ -19,6 +21,8 @@ Setup
             |---- 
       
 
-            
+Magento Concept
+---------------
+
      
 
