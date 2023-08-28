@@ -1,1 +1,0 @@
-/var/www/html/local/vendor/magento/module-configurable-product/view/adminhtml/web/js/variations/steps/bulk.js
