@@ -7,5 +7,18 @@ Basic
 
 Setup
 ------
-   - 
+   - Official Docs 
+   - Pre-Require
+            |
+            |---- Php   - 8
+            |---- Mysql - 8
+            |---- Composer 2
+            |---- ElasticSearch
+            |---- Varnish
+            |---- Redish
+            |---- 
+      
+
+            
+     
 
