@@ -1,0 +1,1 @@
+/var/www/html/local/vendor/magento/module-catalog/view/adminhtml/web/js/options.js

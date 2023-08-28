@@ -1,0 +1,1 @@
+/var/www/html/local/lib/web/jquery/bootstrap/dom/manipulator.js
