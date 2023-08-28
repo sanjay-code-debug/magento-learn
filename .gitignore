@@ -1,0 +1,16 @@
+# Ignore Magento generated files
+/pub/
+/generated/
+/var/
+/vendor/
+/dev
+
+# Ignore Magento cache and session files
+/var/cache/
+/var/session/
+
+# Ignore Magento deployment configuration
+#/app/etc/config.php
+
+# Ignore .idea directory (if you're using PhpStorm)
+.idea/
