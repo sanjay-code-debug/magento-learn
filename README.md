@@ -5,6 +5,12 @@ Basic
 ------
     - Magento ver. 2.4.6-p1
 
+    Storefont Url = http://sanjay.local/
+    Admin Url     = http://sanjay.local/admin_1j8hs5
+           userName -local
+           passWord -local123
+    Create new user = sudo bin/magento admin:user:create --admin-user=local --admin-password=local123 --admin-email=sanjay1@gmail.com --admin-firstname=admin --admin-lastname=admin
+
 Setup
 ------
    - Official Docs

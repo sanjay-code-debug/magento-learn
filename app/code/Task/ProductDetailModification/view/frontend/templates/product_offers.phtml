@@ -1,0 +1,50 @@
+<?php
+/** @var Tab $block */
+
+use Task\ProductDetailModification\Block\Tab;
+?>
+
+<div class="product-offers-container">
+    <?php
+    $productOffersData = $block->getProductOffers();
+
+    if ($productOffersData) {
+        $data = json_decode($productOffersData, true);
+        $offers = $data['data']['product_offers'];
+        ?>
+
+        <h1>Product Offers for <?= $data['data']['asin'] ?></h1>
+
+        <?php if (!empty($offers)): ?>
+            <table class="product-offers-table">
+                <thead>
+                <tr>
+                    <th>Price</th>
+                    <th>Condition</th>
+                    <th>Ships From</th>
+                    <th>Seller</th>
+                    <th>Rating</th>
+                    <th>More Info</th>
+                </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($offers as $offer): ?>
+                    <tr>
+                        <td><?= $offer['product_price'] ?></td>
+                        <td><?= $offer['product_condition'] ?></td>
+                        <td><?= $offer['ships_from'] ?></td>
+                        <td><?= $offer['seller'] ?></td>
+                        <td><?= $offer['seller_star_rating'] ?> (<?= $offer['seller_star_rating_info'] ?>)</td>
+                        <td><a href="<?= $offer['seller_link'] ?>" target="_blank">Visit Seller</a></td>
+                    </tr>
+                <?php endforeach; ?>
+                </tbody>
+            </table>
+        <?php else: ?>
+            <p>No product offers available.</p>
+        <?php endif; ?>
+
+    <?php } else { ?>
+        <p>No product offers data available.</p>
+    <?php } ?>
+</div>

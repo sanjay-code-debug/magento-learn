@@ -1,0 +1,35 @@
+<?php
+/** @var Tab $block */
+
+use Task\ProductDetailModification\Block\Tab;
+?>
+
+<div class="categories-container">
+    <?php
+    $categoriesData = $block->getCategories();
+
+    if ($categoriesData) {
+        $data = json_decode($categoriesData, true);
+        $categories = $data['data'];
+        ?>
+
+        <h1>Categories</h1>
+
+        <?php if (!empty($categories)): ?>
+            <ul class="category-list">
+                <?php foreach ($categories as $category): ?>
+                    <li>
+                        <strong><?= $category['name'] ?>:</strong> <?= $category['id'] ?>
+                    </li>
+                <?php endforeach; ?>
+            </ul>
+        <?php else: ?>
+            <p>No categories available.</p>
+        <?php endif; ?>
+
+    <?php } else { ?>
+        <p>No category data available.</p>
+    <?php } ?>
+</div>
+
+

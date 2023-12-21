@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!--****************************************************************************
+  *
+  * Copyright 2022 Adobe
+  * All Rights Reserved.
+  *
+  ***************************************************************************-->
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.details">
+            <block class="Task\ProductDetailModification\Block\Tab" name="product.detail" template="Task_ProductDetailModification::product_details.phtml" group="detailed_info">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Product Details</argument>
+                    <argument name="sort_order" xsi:type="string">50</argument>
+                </arguments>
+            </block>
+            <block class="Task\ProductDetailModification\Block\Tab" name="product.offers" template="Task_ProductDetailModification::product_offers.phtml" group="detailed_info">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Product Offers</argument>
+                    <argument name="sort_order" xsi:type="string">60</argument>
+                </arguments>
+            </block>
+            <block class="Task\ProductDetailModification\Block\Tab" name="product.categories" template="Task_ProductDetailModification::categories.phtml" group="detailed_info">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Categories</argument>
+                    <argument name="sort_order" xsi:type="string">70</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>
