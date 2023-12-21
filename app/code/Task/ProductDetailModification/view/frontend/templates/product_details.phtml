@@ -1,0 +1,45 @@
+<?php
+/** @var Tab $block */
+
+use Task\ProductDetailModification\Block\Tab;
+?>
+
+<div class="product-details-container">
+    <?php
+    $productData = $block->getProductDetails();
+
+    if ($productData) {
+        $data = json_decode($productData, true);
+        $product = $data['data']['product_information'];
+        ?>
+
+        <h1><?= $product['Brand'] ?> <?= $product['Model Name'] ?></h1>
+
+        <div class="product-description">
+            <?= $data['data']['product_description'] ?>
+        </div>
+
+        <div class="product-specifications">
+            <h2>Product Specifications:</h2>
+            <ul>
+                <li><strong>Wireless Carrier:</strong> <?= $product['Wireless Carrier'] ?></li>
+                <li><strong>Operating System:</strong> <?= $product['OS'] ?></li>
+                <li><strong>Cellular Technology:</strong> <?= $product['Cellular Technology'] ?></li>
+                <!-- Add more specifications as needed -->
+            </ul>
+        </div>
+
+        <div class="product-ratings">
+            <h2>Customer Ratings:</h2>
+            <ul>
+                <?php foreach ($data['data']['rating_distribution'] as $rating => $percentage): ?>
+                    <li><?= $rating ?> stars: <?= $percentage ?></li>
+                <?php endforeach; ?>
+            </ul>
+        </div>
+
+    <?php } else { ?>
+        <p>No product data available.</p>
+    <?php } ?>
+</div>
+

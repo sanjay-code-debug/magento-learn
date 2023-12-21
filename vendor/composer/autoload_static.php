@@ -69,21 +69,21 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '3b2a3f374d04f3d43f268b999d9666c1' => __DIR__ . '/..' . '/magento/module-inventory-sales-api/registration.php',
         '7cd1eea45c3015924e265d9e36a4ab6e' => __DIR__ . '/..' . '/magento/module-inventory-configuration-api/registration.php',
         '1cd77d650669f8ff2a3638d87d11845f' => __DIR__ . '/..' . '/magento/module-inventory-catalog-api/registration.php',
-        '80e236ed87b11d148e08e490eff863fd' => __DIR__ . '/..' . '/magento/module-inventory/registration.php',
         'b0531590328134738333bdd60add673f' => __DIR__ . '/..' . '/magento/module-re-captcha-validation-api/registration.php',
-        '4725125cbaeab31cd4e5c5c07061fa43' => __DIR__ . '/..' . '/magento/module-payment/registration.php',
+        '80e236ed87b11d148e08e490eff863fd' => __DIR__ . '/..' . '/magento/module-inventory/registration.php',
         'beef4a50b960435d4b145e8d222f5f10' => __DIR__ . '/..' . '/magento/module-configurable-product/registration.php',
+        '4725125cbaeab31cd4e5c5c07061fa43' => __DIR__ . '/..' . '/magento/module-payment/registration.php',
         '73a8e4290482dda77755fd5545cb64f4' => __DIR__ . '/..' . '/magento/module-webapi/registration.php',
         '7d65523658f618d8d26b8219ea46bbd7' => __DIR__ . '/..' . '/magento/module-indexer/registration.php',
         'fc5563a6d8ed33909f8031d05dec9433' => __DIR__ . '/..' . '/magento/module-catalog-search/registration.php',
         '00763573ac2716ffacc7362cf99e8560' => __DIR__ . '/..' . '/magento/module-new-relic-reporting/registration.php',
         '769c181872a21948ea52b3603a26a64a' => __DIR__ . '/..' . '/magento/module-graph-ql/registration.php',
-        '22b78ee29fd052ffce7e15e9173179f9' => __DIR__ . '/..' . '/magento/module-inventory-source-selection-api/registration.php',
         'ee281e56c294b104ff80ee675f29f7ac' => __DIR__ . '/..' . '/magento/module-re-captcha-ui/registration.php',
+        '22b78ee29fd052ffce7e15e9173179f9' => __DIR__ . '/..' . '/magento/module-inventory-source-selection-api/registration.php',
         '4e49f9b77cfaca5ecee9e68485c07e5a' => __DIR__ . '/..' . '/magento/module-contact/registration.php',
+        'a6d2049b4013058aebdab5256bfc92a1' => __DIR__ . '/..' . '/magento/module-import-export/registration.php',
         'cd9c04e7a58e8e03a2cb54a47a022f5f' => __DIR__ . '/..' . '/magento/module-media-gallery-api/registration.php',
         '53814a716d73013b1489c928a2cb4164' => __DIR__ . '/..' . '/magento/module-shipping/registration.php',
-        'a6d2049b4013058aebdab5256bfc92a1' => __DIR__ . '/..' . '/magento/module-import-export/registration.php',
         '4184a5a46cdac827c1939d0d3b4372cd' => __DIR__ . '/..' . '/magento/module-inventory-reservations-api/registration.php',
         '37682718cb9a8dd7fe10ec90b2ea2437' => __DIR__ . '/..' . '/magento/module-inventory-source-deduction-api/registration.php',
         '59f72ba1d3bbb4abbbf6ef3ac8336598' => __DIR__ . '/..' . '/magento/module-inventory-multi-dimensional-indexer-api/registration.php',
@@ -92,52 +92,53 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '157e241791c95df2d41c00e4314f115e' => __DIR__ . '/..' . '/magento/module-search/registration.php',
         'a09428fb5202148efdc033b11ca2bc1c' => __DIR__ . '/..' . '/magento/module-rule/registration.php',
         'aefa4ea9e2005b6976253d7b9a177c84' => __DIR__ . '/..' . '/magento/module-inventory-indexer/registration.php',
+        'c7e1128e2a1afd8d28d3f93d8e2e3019' => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-api/registration.php',
+        'bb6621289f135d14ac7bffe9e45ad6ef' => __DIR__ . '/..' . '/magento/module-catalog-import-export/registration.php',
         '08592fdd5b9e829727a7db2f953d82b2' => __DIR__ . '/..' . '/magento/module-vault/registration.php',
         'ff4a42fb48f753f6d1e6177223059e3d' => __DIR__ . '/..' . '/magento/module-msrp/registration.php',
-        'bb6621289f135d14ac7bffe9e45ad6ef' => __DIR__ . '/..' . '/magento/module-catalog-import-export/registration.php',
         'ae085f025db69d2249af124b0d91b13f' => __DIR__ . '/..' . '/magento/module-adobe-ims-api/registration.php',
         'b967176095820b122db026301435e5d4' => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-api/registration.php',
-        'c7e1128e2a1afd8d28d3f93d8e2e3019' => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-api/registration.php',
-        'ce905cb44f14ec283a2ba1c12e6f8420' => __DIR__ . '/..' . '/magento/module-advanced-search/registration.php',
-        '108fd301b720a30c9ec42a785ee00656' => __DIR__ . '/..' . '/magento/module-gift-message/registration.php',
         '1873ae6446634b40bf25026005067303' => __DIR__ . '/..' . '/magento/module-re-captcha-frontend-ui/registration.php',
         '24095738ccbb9fc915174b272ef16432' => __DIR__ . '/..' . '/magento/module-graph-ql-cache/registration.php',
+        'ce905cb44f14ec283a2ba1c12e6f8420' => __DIR__ . '/..' . '/magento/module-advanced-search/registration.php',
+        '108fd301b720a30c9ec42a785ee00656' => __DIR__ . '/..' . '/magento/module-gift-message/registration.php',
+        '2f522cf385c971ad85c792b852e13d71' => __DIR__ . '/..' . '/magento/module-customer-graph-ql/registration.php',
         'cf44f9b1253939f955772534aabbf624' => __DIR__ . '/..' . '/magento/module-grouped-product/registration.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        '93e55f9c32abdc30fb8545fc661e68a5' => __DIR__ . '/..' . '/magento/module-eav-graph-ql/registration.php',
         'ec07570ca5a812141189b1fa81503674' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert/Functions.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         'e4f13915c73bde5cfe1ad991a2c05d62' => __DIR__ . '/..' . '/magento/module-media-content-api/registration.php',
         '5fb4035ebd843bb3a9ee62f27ace3d84' => __DIR__ . '/..' . '/magento/module-login-as-customer-api/registration.php',
-        '2f522cf385c971ad85c792b852e13d71' => __DIR__ . '/..' . '/magento/module-customer-graph-ql/registration.php',
+        '56f4400ce26dd5a5d1a6efb9e2f5d128' => __DIR__ . '/..' . '/magento/module-quote-graph-ql/registration.php',
         '98e6b97cff34460cafeaceffce4c013c' => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-shipping-api/registration.php',
         'a8c41acf1bcf2c8c39616ad2b1e630fb' => __DIR__ . '/..' . '/magento/module-analytics/registration.php',
-        '56f4400ce26dd5a5d1a6efb9e2f5d128' => __DIR__ . '/..' . '/magento/module-quote-graph-ql/registration.php',
+        '19b03cc33c349b5e5fbc6577c2f9dc87' => __DIR__ . '/..' . '/magento/module-catalog-url-rewrite/registration.php',
         '8ace14821cff5beb90efc58dfd9c8b3b' => __DIR__ . '/..' . '/magento/module-media-gallery-synchronization-api/registration.php',
         'b0a44809b5ec8c6edb0d5f52ef3a56a2' => __DIR__ . '/..' . '/magento/module-inventory-configuration/registration.php',
-        '5c7dcd6ec83d6cf2988a97cdcba365ed' => __DIR__ . '/..' . '/magento/module-catalog-rule/registration.php',
-        '93e55f9c32abdc30fb8545fc661e68a5' => __DIR__ . '/..' . '/magento/module-eav-graph-ql/registration.php',
-        '19b03cc33c349b5e5fbc6577c2f9dc87' => __DIR__ . '/..' . '/magento/module-catalog-url-rewrite/registration.php',
-        '2ea2620d63b7a15b31d0f4deeb17bd92' => __DIR__ . '/..' . '/magento/module-adobe-stock-client-api/registration.php',
         '9d7db7a42183debc9bb6e9739868417f' => __DIR__ . '/..' . '/magento/module-catalog-graph-ql/registration.php',
-        '3ce6447b6ef8a0e6e2a3cec20fba30e3' => __DIR__ . '/..' . '/magento/module-instant-purchase/registration.php',
+        '5c7dcd6ec83d6cf2988a97cdcba365ed' => __DIR__ . '/..' . '/magento/module-catalog-rule/registration.php',
         '47402ddfee46771bcf36e616cf38b137' => __DIR__ . '/..' . '/magento/module-variable/registration.php',
+        '2ea2620d63b7a15b31d0f4deeb17bd92' => __DIR__ . '/..' . '/magento/module-adobe-stock-client-api/registration.php',
+        '3ce6447b6ef8a0e6e2a3cec20fba30e3' => __DIR__ . '/..' . '/magento/module-instant-purchase/registration.php',
+        'fd65c736f7629244fadc2ef5e1a70a6a' => __DIR__ . '/..' . '/magento/module-re-captcha-admin-ui/registration.php',
+        'e88c2fc091691ce3ebaf495794ab1e22' => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-ui/registration.php',
+        '2d0debaab8ec34dfba214036a43af24e' => __DIR__ . '/..' . '/magento/module-url-rewrite/registration.php',
+        '49be64f161d7f7e3617b7936edeeb6d3' => __DIR__ . '/..' . '/magento/module-catalog-widget/registration.php',
         '94873d6b1410a90e995471e2f15612bc' => __DIR__ . '/..' . '/magento/module-adobe-ims/registration.php',
         '9944ade184ae5fe1e30491426d3a4f16' => __DIR__ . '/..' . '/magento/module-inventory-distance-based-source-selection-api/registration.php',
         'b6b883acf444fbba1f9372b784c8be17' => __DIR__ . '/..' . '/magento/module-inventory-in-store-pickup-sales-api/registration.php',
-        'fd65c736f7629244fadc2ef5e1a70a6a' => __DIR__ . '/..' . '/magento/module-re-captcha-admin-ui/registration.php',
-        'e88c2fc091691ce3ebaf495794ab1e22' => __DIR__ . '/..' . '/magento/module-re-captcha-webapi-ui/registration.php',
         'd13cf42afd7e8468aaae642ce0a2c3cf' => __DIR__ . '/..' . '/magento/module-security/registration.php',
-        '49be64f161d7f7e3617b7936edeeb6d3' => __DIR__ . '/..' . '/magento/module-catalog-widget/registration.php',
-        '2d0debaab8ec34dfba214036a43af24e' => __DIR__ . '/..' . '/magento/module-url-rewrite/registration.php',
+        'a291bc41d6662dad619f145d3da50895' => __DIR__ . '/..' . '/magento/module-page-builder/registration.php',
         '8c6b73308093eb45d4062df90b3b55db' => __DIR__ . '/..' . '/magento/module-adobe-stock-asset-api/registration.php',
         '132d503ae9081cfa2d38a32881a230e4' => __DIR__ . '/..' . '/magento/module-inventory-catalog/registration.php',
         'd9ab1080bb45aa6243c9cc421bf9327e' => __DIR__ . '/..' . '/magento/module-inventory-low-quantity-notification-api/registration.php',
-        'a291bc41d6662dad619f145d3da50895' => __DIR__ . '/..' . '/magento/module-page-builder/registration.php',
         '3f1662385885db186423ec0b74dfe6e9' => __DIR__ . '/..' . '/magento/module-sales-rule/registration.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         'feab3019e2726e0d070190c665c9ddb3' => __DIR__ . '/..' . '/magento/module-jwt-user-token/registration.php',
         'cbc36b0f2aa35736488fd0554815c52c' => __DIR__ . '/..' . '/magento/module-media-gallery-metadata-api/registration.php',
         '6269d4cdefebe2f0047a8b2c3cc65ecf' => __DIR__ . '/..' . '/magento/module-media-gallery-ui-api/registration.php',
+        'f837c6995454d7fc8c6285f0f03baa49' => __DIR__ . '/..' . '/magento/module-re-captcha-version-3-invisible/registration.php',
         '801c31d8ed748cfa537fa45402288c95' => __DIR__ . '/..' . '/psy/psysh/src/functions.php',
         'e3b2795a8a512b6083af088fb53afe6c' => __DIR__ . '/..' . '/codeception/codeception/functions.php',
         '8592c7b0947d8a0965a9e8c3d16f9c24' => __DIR__ . '/..' . '/elasticsearch/elasticsearch/src/autoload.php',
@@ -154,7 +155,6 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         'f283a248afeee67ebafcc47ba7f75b4d' => __DIR__ . '/..' . '/magento/module-page-builder-analytics/registration.php',
         'e9cc958f8b33818a88925f9b6ccf0f46' => __DIR__ . '/..' . '/magento/module-re-captcha-version-2-checkbox/registration.php',
         '5ee0a25967d14ddf280c7b18de12daf9' => __DIR__ . '/..' . '/magento/module-re-captcha-version-2-invisible/registration.php',
-        'f837c6995454d7fc8c6285f0f03baa49' => __DIR__ . '/..' . '/magento/module-re-captcha-version-3-invisible/registration.php',
         'b067bc7112e384b61c701452d53a14a8' => __DIR__ . '/..' . '/mtdowling/jmespath.php/src/JmesPath.php',
         '51fcf4e06c07cc00c920b44bcd900e7a' => __DIR__ . '/..' . '/thecodingmachine/safe/deprecated/apc.php',
         '288267919fedd3829a7732b5fb202197' => __DIR__ . '/..' . '/thecodingmachine/safe/deprecated/array.php',
@@ -248,10 +248,12 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '41e3c70b13a38be15b2f71a5ab57282e' => __DIR__ . '/..' . '/magento/module-cron/registration.php',
         '31f9d3fe7417744d87bcb77e698734fb' => __DIR__ . '/..' . '/magento/module-media-content-synchronization-api/registration.php',
         '7262a266e3433bc7d1f53ddcb1dab374' => __DIR__ . '/..' . '/magento/module-multishipping/registration.php',
+        '71dc2695e085cd08c5c05443ffbe009b' => __DIR__ . '/..' . '/magento/module-url-rewrite-graph-ql/registration.php',
         '17dce4760d5be666708f8f6bdf0a040c' => __DIR__ . '/..' . '/magento/module-catalog-sample-data/registration.php',
         '7e9bd612cc444b3eed788ebbe46263a0' => __DIR__ . '/..' . '/laminas/laminas-zendframework-bridge/src/autoload.php',
         '5cf85b36784d8983386f13c5ce966b3f' => __DIR__ . '/..' . '/magento/module-cms-graph-ql/registration.php',
         '4a78493fd48e24e9ec5cd7b77605aa2f' => __DIR__ . '/..' . '/magento/module-developer/registration.php',
+        '45f51b78d2c8736277eacff6bfbd92bb' => __DIR__ . '/..' . '/magento/module-eav-graph-ql-aux/registration.php',
         'cd2159b9f3fc8d4bd4379be89ab8d44d' => __DIR__ . '/..' . '/magento/module-elasticsearch/registration.php',
         'ff9dfb2d428b9c0dc45f907b7623eb97' => __DIR__ . '/..' . '/magento/module-inventory-catalog-frontend-ui/registration.php',
         '0f2f8b2e42f23e9d1a7db1f3bd7eb6a4' => __DIR__ . '/..' . '/magento/module-inventory-export-stock-api/registration.php',
@@ -262,11 +264,12 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '814a46999bb03138827ea41c6c97733f' => __DIR__ . '/..' . '/magento/module-product-alert/registration.php',
         'b3919c575ff86727487c449672b56167' => __DIR__ . '/..' . '/magento/module-swagger/registration.php',
         '7c4937fd3269103dd7ef4dd0720a571d' => __DIR__ . '/..' . '/magento/module-two-factor-auth/registration.php',
-        '71dc2695e085cd08c5c05443ffbe009b' => __DIR__ . '/..' . '/magento/module-url-rewrite-graph-ql/registration.php',
         '07684b53e004b1beb749e8fbbdaf6247' => __DIR__ . '/..' . '/paypal/module-braintree-core/registration.php',
         '3f7befdb3fd10d6e2a914b0320605b6e' => __DIR__ . '/..' . '/magento/module-bundle-import-export/registration.php',
         '2ddc4473bbdcd41a59f431c47412cae7' => __DIR__ . '/..' . '/magento/module-media-gallery/registration.php',
         '668a338ed27950eb02c3ab30da6a3530' => __DIR__ . '/..' . '/magento/module-media-gallery-ui/registration.php',
+        'e28066d84427bf9e08d8024eeee57427' => __DIR__ . '/..' . '/magento/module-re-captcha-checkout/registration.php',
+        '54b4bc98b5fc25f65133fd91cc71f527' => __DIR__ . '/..' . '/magento/module-re-captcha-customer/registration.php',
         '71bec2022ce7910b2a55f98bbf437063' => __DIR__ . '/..' . '/magento/framework-amqp/registration.php',
         '6e774d6c013c430185b2f190fca89228' => __DIR__ . '/..' . '/magento/module-downloadable-graph-ql/registration.php',
         'f0a367f3327072458afd08ec8891b227' => __DIR__ . '/..' . '/magento/module-google-analytics/registration.php',
@@ -343,10 +346,8 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '61d0a92e63ed94984ecdc51c7a060d96' => __DIR__ . '/..' . '/magento/module-offline-shipping/registration.php',
         'b83b8c2f06c17e50419019e996be8e60' => __DIR__ . '/..' . '/magento/module-page-builder-admin-analytics/registration.php',
         '5a6b8d4fd4ef7661716c5b48f95a1af7' => __DIR__ . '/..' . '/magento/module-product-links-sample-data/registration.php',
-        'e28066d84427bf9e08d8024eeee57427' => __DIR__ . '/..' . '/magento/module-re-captcha-checkout/registration.php',
         'ef7f1387b3d664723ee0b8c8effba4aa' => __DIR__ . '/..' . '/magento/module-re-captcha-checkout-sales-rule/registration.php',
         '278695ac59e2fb9b5f01daaf4b953cbe' => __DIR__ . '/..' . '/magento/module-re-captcha-contact/registration.php',
-        '54b4bc98b5fc25f65133fd91cc71f527' => __DIR__ . '/..' . '/magento/module-re-captcha-customer/registration.php',
         '1cc25836e5c664bacd82a4ff783ef488' => __DIR__ . '/..' . '/magento/module-re-captcha-migration/registration.php',
         '5737aafd874f602b8ff37880167d90e8' => __DIR__ . '/..' . '/magento/module-re-captcha-newsletter/registration.php',
         '6a3fe9f01a9a816719b637b8602952de' => __DIR__ . '/..' . '/magento/module-re-captcha-paypal/registration.php',
@@ -398,6 +399,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         'fbde087476e8a7fd20ef89a7f2886cd9' => __DIR__ . '/..' . '/magento/module-catalog-analytics/registration.php',
         '5568fde40baabf6ea25c7bd25069a10b' => __DIR__ . '/..' . '/magento/module-catalog-cms-graph-ql/registration.php',
         'c15f0983b49ec00ce8177f150d7e4bee' => __DIR__ . '/..' . '/magento/module-catalog-customer-graph-ql/registration.php',
+        '01ac35eda278828556658c6ec3206746' => __DIR__ . '/..' . '/magento/module-catalog-graph-ql-aux/registration.php',
         'd6a96149303216e8b691a28772097f44' => __DIR__ . '/..' . '/magento/module-catalog-inventory-graph-ql/registration.php',
         'f4f69bd33414e7f1f59bdac584820374' => __DIR__ . '/..' . '/magento/module-catalog-rule-configurable/registration.php',
         '8e6fcadc5acfe23c69a8211c9e88bf23' => __DIR__ . '/..' . '/magento/module-catalog-rule-graph-ql/registration.php',
@@ -410,6 +412,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '2547a59bc759d916e962aada373a6636' => __DIR__ . '/..' . '/magento/module-configurable-product-graph-ql/registration.php',
         '10f4736294c73baae681bdeaa5b8f0cb' => __DIR__ . '/..' . '/magento/module-configurable-product-sales/registration.php',
         'dca3c9561684e2df7aa04142a7c0cfd7' => __DIR__ . '/..' . '/magento/module-configurable-sample-data/registration.php',
+        '5f7eb656b8efb161fa470768f5024493' => __DIR__ . '/..' . '/magento/module-contact-graph-ql-pwa/registration.php',
         '556c7aed2035e389bcc1ad2f68ae4a63' => __DIR__ . '/..' . '/magento/module-csp/registration.php',
         '829ba7fc4432a3474ce52dbd8ed65ea7' => __DIR__ . '/..' . '/magento/module-currency-symbol/registration.php',
         '711c480702db30ae0b71924cfff2d411' => __DIR__ . '/..' . '/magento/module-customer-analytics/registration.php',
@@ -456,8 +459,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '0a5d90c05f669706524b7b1e33a6b1eb' => __DIR__ . '/..' . '/magento/module-msrp-grouped-product/registration.php',
         '1373cc9232d7b66f2113007d82ad5440' => __DIR__ . '/..' . '/magento/module-mysql-mq/registration.php',
         'd28f90c98e430113c6956e29d36b5774' => __DIR__ . '/..' . '/magento/module-newsletter-graph-ql/registration.php',
+        'e4f1b44bee911d21f5429beb2191a971' => __DIR__ . '/..' . '/magento/module-newsletter-graph-ql-pwa/registration.php',
         '98f5b33f09373b9acd3811387018c4f3' => __DIR__ . '/..' . '/magento/module-offline-payments/registration.php',
         '02eb42be7d93ff1d00c561042ac7338f' => __DIR__ . '/..' . '/magento/module-open-search/registration.php',
+        'fb38e1bad641971e6e60d6ce721bab22' => __DIR__ . '/..' . '/magento/module-page-builder-pwa/registration.php',
         '4deb1be1ed160cd929400c0b51a20ad5' => __DIR__ . '/..' . '/magento/module-payment-graph-ql/registration.php',
         'e94d0d1147cf36b49464173d27662e5a' => __DIR__ . '/..' . '/magento/module-paypal-captcha/registration.php',
         '6293a9efb859eb088e43214ce41afae3' => __DIR__ . '/..' . '/magento/module-paypal-graph-ql/registration.php',
@@ -467,10 +472,13 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '48090c91d4fe2e2f561b7bcb5ebc6e52' => __DIR__ . '/..' . '/magento/module-quote-bundle-options/registration.php',
         '92f9e9ffa86579a41f36992bdd204233' => __DIR__ . '/..' . '/magento/module-quote-configurable-options/registration.php',
         '730b0d20312055b169ace63df36d3796' => __DIR__ . '/..' . '/magento/module-quote-downloadable-links/registration.php',
+        '08d175ef2c389217950ca8c32f662dda' => __DIR__ . '/..' . '/magento/module-re-captcha-graph-ql-pwa/registration.php',
+        '9f98e4f01d97b83f3473a7794c5a3ab9' => __DIR__ . '/..' . '/magento/module-re-captcha-pwa/registration.php',
         '39027d3e6a45c96c832e2d6eae588fcb' => __DIR__ . '/..' . '/magento/module-related-product-graph-ql/registration.php',
         'e2cf73bdee9a6b8e10ecfe4a5a0ba20d' => __DIR__ . '/..' . '/magento/module-review-analytics/registration.php',
         '7d7c091601a37f6e9840f255d22542c1' => __DIR__ . '/..' . '/magento/module-review-graph-ql/registration.php',
         'c7c23a23c2246787692c9cd2b9460b69' => __DIR__ . '/..' . '/magento/module-sales-analytics/registration.php',
+        '2037b35268fb862dbc25a5641957b5dc' => __DIR__ . '/..' . '/magento/module-sales-graph-ql-aux/registration.php',
         '05b0510631c80cea7eb750a678d5b6d9' => __DIR__ . '/..' . '/magento/module-sample-data/cli_commands.php',
         'ff1738b7e3c49d87ace9a04942b53067' => __DIR__ . '/..' . '/magento/module-sample-data/registration.php',
         '56468e0206039d04465eaad43c93e83a' => __DIR__ . '/..' . '/magento/module-send-friend-graph-ql/registration.php',
@@ -485,12 +493,14 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         '350cee53d6560e6ec59ece9789f1f880' => __DIR__ . '/..' . '/magento/module-theme-graph-ql/registration.php',
         '2c2cf29a6a1026ad991c189a4c4ab958' => __DIR__ . '/..' . '/magento/module-theme-sample-data/registration.php',
         '95d61459255c952922a2dfeee5b7c731' => __DIR__ . '/..' . '/magento/module-ups/registration.php',
+        'bdb24e480963a139a9a2f275c2940806' => __DIR__ . '/..' . '/magento/module-url-rewrite-graph-ql-pwa/registration.php',
         '266075d7d4c1215b5af2b6f860324839' => __DIR__ . '/..' . '/magento/module-usps/registration.php',
         'b8bb092e7172d3d64051a48463064706' => __DIR__ . '/..' . '/magento/module-vault-graph-ql/registration.php',
         '130d5e4e36873076b0339a4abe7683f7' => __DIR__ . '/..' . '/magento/module-version/registration.php',
         '1208c02d0023e730812a0e47074cad91' => __DIR__ . '/..' . '/magento/module-webapi-async/registration.php',
         '77e65bb2d87c623c271d0c4be058c0fb' => __DIR__ . '/..' . '/magento/module-webapi-security/registration.php',
         'e21672403fd924578a30f46c09d728ce' => __DIR__ . '/..' . '/magento/module-weee-graph-ql/registration.php',
+        '8c0f54af9d38ef56c220c3cd7c32ef89' => __DIR__ . '/..' . '/magento/module-weee-graph-ql-aux/registration.php',
         'a3fccc207d3ef7a9846f7593842ab949' => __DIR__ . '/..' . '/magento/module-wishlist-analytics/registration.php',
         '2451819c9c2b818eb9be5f36b51585ea' => __DIR__ . '/..' . '/magento/module-wishlist-graph-ql/registration.php',
         'd04d5084d3db908d3544ed506541866a' => __DIR__ . '/..' . '/magento/theme-adminhtml-backend/registration.php',
@@ -629,6 +639,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\WidgetSampleData\\' => 25,
             'Magento\\Weee\\' => 13,
             'Magento\\WeeeGraphQl\\' => 20,
+            'Magento\\WeeeGraphQlAux\\' => 23,
             'Magento\\Webapi\\' => 15,
             'Magento\\WebapiSecurity\\' => 23,
             'Magento\\WebapiAsync\\' => 20,
@@ -640,6 +651,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\User\\' => 13,
             'Magento\\UrlRewrite\\' => 19,
             'Magento\\UrlRewriteGraphQl\\' => 26,
+            'Magento\\UrlRewriteGraphQlPwa\\' => 29,
             'Magento\\Ups\\' => 12,
             'Magento\\Ui\\' => 11,
             'Magento\\TwoFactorAuth\\' => 22,
@@ -681,6 +693,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\SalesRuleSampleData\\' => 28,
             'Magento\\SalesInventory\\' => 23,
             'Magento\\SalesGraphQl\\' => 21,
+            'Magento\\SalesGraphQlAux\\' => 24,
             'Magento\\SalesAnalytics\\' => 23,
             'Magento\\Rule\\' => 13,
             'Magento\\Rss\\' => 12,
@@ -708,9 +721,11 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\ReCaptchaStorePickup\\' => 29,
             'Magento\\ReCaptchaSendFriend\\' => 28,
             'Magento\\ReCaptchaReview\\' => 24,
+            'Magento\\ReCaptchaPwa\\' => 21,
             'Magento\\ReCaptchaPaypal\\' => 24,
             'Magento\\ReCaptchaNewsletter\\' => 28,
             'Magento\\ReCaptchaMigration\\' => 27,
+            'Magento\\ReCaptchaGraphQlPwa\\' => 28,
             'Magento\\ReCaptchaFrontendUi\\' => 28,
             'Magento\\ReCaptchaCustomer\\' => 26,
             'Magento\\ReCaptchaContact\\' => 25,
@@ -735,6 +750,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\PaymentGraphQl\\' => 23,
             'Magento\\PageCache\\' => 18,
             'Magento\\PageBuilder\\' => 20,
+            'Magento\\PageBuilderPwa\\' => 23,
             'Magento\\PageBuilderAnalytics\\' => 29,
             'Magento\\PageBuilderAdminAnalytics\\' => 34,
             'Magento\\OpenSearch\\' => 19,
@@ -743,6 +759,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\OfflinePayments\\' => 24,
             'Magento\\Newsletter\\' => 19,
             'Magento\\NewsletterGraphQl\\' => 26,
+            'Magento\\NewsletterGraphQlPwa\\' => 29,
             'Magento\\NewRelicReporting\\' => 26,
             'Magento\\MysqlMq\\' => 16,
             'Magento\\Multishipping\\' => 22,
@@ -894,6 +911,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\Elasticsearch7\\' => 23,
             'Magento\\Eav\\' => 12,
             'Magento\\EavGraphQl\\' => 19,
+            'Magento\\EavGraphQlAux\\' => 22,
             'Magento\\Downloadable\\' => 21,
             'Magento\\DownloadableSampleData\\' => 31,
             'Magento\\DownloadableImportExport\\' => 33,
@@ -914,6 +932,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\Cron\\' => 13,
             'Magento\\Cookie\\' => 15,
             'Magento\\Contact\\' => 16,
+            'Magento\\ContactGraphQlPwa\\' => 26,
             'Magento\\ConfigurableSampleData\\' => 31,
             'Magento\\ConfigurableProduct\\' => 28,
             'Magento\\ConfigurableProductSales\\' => 33,
@@ -948,6 +967,7 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
             'Magento\\CatalogInventoryGraphQl\\' => 32,
             'Magento\\CatalogImportExport\\' => 28,
             'Magento\\CatalogGraphQl\\' => 23,
+            'Magento\\CatalogGraphQlAux\\' => 26,
             'Magento\\CatalogCustomerGraphQl\\' => 31,
             'Magento\\CatalogCmsGraphQl\\' => 26,
             'Magento\\CatalogAnalytics\\' => 25,
@@ -1417,6 +1437,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         array (
             0 => __DIR__ . '/..' . '/magento/module-weee-graph-ql',
         ),
+        'Magento\\WeeeGraphQlAux\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-weee-graph-ql-aux',
+        ),
         'Magento\\Webapi\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-webapi',
@@ -1460,6 +1484,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         'Magento\\UrlRewriteGraphQl\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-url-rewrite-graph-ql',
+        ),
+        'Magento\\UrlRewriteGraphQlPwa\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-url-rewrite-graph-ql-pwa',
         ),
         'Magento\\Ups\\' => 
         array (
@@ -1625,6 +1653,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-graph-ql',
         ),
+        'Magento\\SalesGraphQlAux\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-sales-graph-ql-aux',
+        ),
         'Magento\\SalesAnalytics\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-sales-analytics',
@@ -1733,6 +1765,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-review',
         ),
+        'Magento\\ReCaptchaPwa\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-re-captcha-pwa',
+        ),
         'Magento\\ReCaptchaPaypal\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-paypal',
@@ -1744,6 +1780,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         'Magento\\ReCaptchaMigration\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-re-captcha-migration',
+        ),
+        'Magento\\ReCaptchaGraphQlPwa\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-re-captcha-graph-ql-pwa',
         ),
         'Magento\\ReCaptchaFrontendUi\\' => 
         array (
@@ -1841,6 +1881,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         array (
             0 => __DIR__ . '/..' . '/magento/module-page-builder',
         ),
+        'Magento\\PageBuilderPwa\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-page-builder-pwa',
+        ),
         'Magento\\PageBuilderAnalytics\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-page-builder-analytics',
@@ -1872,6 +1916,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         'Magento\\NewsletterGraphQl\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-newsletter-graph-ql',
+        ),
+        'Magento\\NewsletterGraphQlPwa\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-newsletter-graph-ql-pwa',
         ),
         'Magento\\NewRelicReporting\\' => 
         array (
@@ -2478,6 +2526,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         array (
             0 => __DIR__ . '/..' . '/magento/module-eav-graph-ql',
         ),
+        'Magento\\EavGraphQlAux\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-eav-graph-ql-aux',
+        ),
         'Magento\\Downloadable\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-downloadable',
@@ -2557,6 +2609,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         'Magento\\Contact\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-contact',
+        ),
+        'Magento\\ContactGraphQlPwa\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-contact-graph-ql-pwa',
         ),
         'Magento\\ConfigurableSampleData\\' => 
         array (
@@ -2693,6 +2749,10 @@ class ComposerStaticInit4f9260ebcdc77211c24ebf2b2fd3e556
         'Magento\\CatalogGraphQl\\' => 
         array (
             0 => __DIR__ . '/..' . '/magento/module-catalog-graph-ql',
+        ),
+        'Magento\\CatalogGraphQlAux\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/magento/module-catalog-graph-ql-aux',
         ),
         'Magento\\CatalogCustomerGraphQl\\' => 
         array (
