@@ -358,7 +358,8 @@ return [
         'Magento_WishlistSampleData' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
-        'Task_ProductDetailModification' => 1,
+        'Task_AddCustomerAdditionalData' => 1,
+        'Task_ProductDetailModification' => 0,
         'Temando_ShippingRemover' => 1
     ]
 ];
