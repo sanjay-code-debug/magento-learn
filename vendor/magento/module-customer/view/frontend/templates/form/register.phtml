@@ -40,6 +40,8 @@ $createAccountButtonViewModel = $block->getData('create_account_button_view_mode
                 ->setObject($formData)
                 ->setForceUseCustomerAttributes(true)
                 ->toHtml() ?>
+<!--        --><?php //echo $block->getLayout()->createBlock("Magento\Framework\View\Element\Template")->setTemplate("Task_AddCustomerAdditionalData::profession.phtml")->toHtml(); ?>
+
         <?php if ($block->isNewsletterEnabled()): ?>
             <div class="field choice newsletter">
                 <input type="checkbox"
